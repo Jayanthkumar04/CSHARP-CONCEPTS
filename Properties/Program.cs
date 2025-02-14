@@ -30,6 +30,8 @@ namespace Properties
 
             //==============================================================?
 
+            Product.GST = 0.18;
+
             Product product1 = new Product();
 
             Console.WriteLine("enter pid");
@@ -54,6 +56,8 @@ namespace Properties
 
             Console.WriteLine("pMfg: " + product1.MfgDate);
 
+            Console.WriteLine("PGst: "+(product1.PPrice * Product.GST));
+
             Product product2 = new Product()
             {
                 PId = 1,
@@ -72,6 +76,8 @@ namespace Properties
             Console.WriteLine("pprice: " + product2.PPrice);
 
             Console.WriteLine("pMfg: " + product2.MfgDate);
+
+            Console.WriteLine("PGst: " + (product2.PPrice * Product.GST));
 
             Console.ReadKey();
 
