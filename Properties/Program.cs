@@ -63,9 +63,11 @@ namespace Properties
                 PId = 1,
                 PName = "fruits",
                 PPrice = 500,
-                MfgDate = new DateTime(day: 12, month: 1, year: 2025)
+                MfgDate = new DateTime(day: 10, month: 2, year: 2022)
             };
 
+            Console.WriteLine();
+            Console.WriteLine();
 
             Console.WriteLine("product 2 details:");
 
