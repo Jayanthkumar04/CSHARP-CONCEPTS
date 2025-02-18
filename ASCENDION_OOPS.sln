@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCENDION_OOPS", "ASCENDION_OOPS\ASCENDION_OOPS.csproj", "{DB683554-6CAD-4BBB-9309-405C065B5D45}"
 EndProject
@@ -13,9 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverridingInCSharp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractEx", "AbstractEx\AbstractEx.csproj", "{7CEDBE10-BD7D-41E9-9DC4-0AC4EB0A7FAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractExample", "AbstractExample\AbstractExample.csproj", "{82D97D0C-51C1-4CF8-8899-7CA78C439EBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExample", "AbstractExample\InterfaceExample.csproj", "{82D97D0C-51C1-4CF8-8899-7CA78C439EBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConffAppInterfaceEx2", "ConffAppInterfaceEx2\ConffAppInterfaceEx2.csproj", "{78FF2742-3544-479F-ACE4-BB2BE8866F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceBankingExample", "InterfaceBigExample\InterfaceBankingExample.csproj", "{C5ED9BE7-A0A1-443A-A1B4-923947AC8A24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{78FF2742-3544-479F-ACE4-BB2BE8866F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78FF2742-3544-479F-ACE4-BB2BE8866F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78FF2742-3544-479F-ACE4-BB2BE8866F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5ED9BE7-A0A1-443A-A1B4-923947AC8A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5ED9BE7-A0A1-443A-A1B4-923947AC8A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5ED9BE7-A0A1-443A-A1B4-923947AC8A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5ED9BE7-A0A1-443A-A1B4-923947AC8A24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
